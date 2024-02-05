@@ -1,10 +1,22 @@
-# react-native-update-helper
+# react-native-update-version-shell
 
 ## Description
-This small project is equipped with a handy bash script that automates the version update process for your React Native app. The script takes care of updating the version in various files, ensuring a smooth workflow for developers.
+
+This project is equipped with a handy bash script that automates the version update process for your React Native
+app.
+<br>The script will automatically update the version in App's `package.json`, Android's `build.gradle`,
+iOS's `Info.plist` and `project.pbxproj`.
 
 ## Usage
-To use the script, simply run it with the desired version number as an argument. Make sure your `package.json` has the "name" field set. The script will automatically update the version in App's `package.json`, Android's `build.gradle`, iOS's `Info.plist`, and `project.pbxproj`.
+To use the script, follow these steps:
+
+1. Ensure that your `package.json` contains the "name" field.
+2. Make the script executable by running the following command:
 
 ```bash
-./update_version.sh 1.2.3
+chmod +x update_version.sh
+```
+
+```bash
+react-native-update-version-shell 1.2.3
+```
