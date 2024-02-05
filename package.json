@@ -1,6 +1,6 @@
 {
   "name": "react-native-update-version-shell",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This small project is equipped with a handy bash script that automates the version update process for your React Native app. The script takes care of updating the version in various files, ensuring a smooth workflow for developers",
   "bin": {
     "react-native-update-version-shell": "./update-version.sh"
