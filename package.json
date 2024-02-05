@@ -1,0 +1,20 @@
+{
+  "name": "react-native-update-version",
+  "version": "1.0.0",
+  "description": "This small project is equipped with a handy bash script that automates the version update process for your React Native app. The script takes care of updating the version in various files, ensuring a smooth workflow for developers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonstantinZhukovskij/react-native-update-version.git"
+  },
+  "keywords": [
+    "react-native",
+    "update",
+    "version"
+  ],
+  "author": "“KonstantinZhukovskij” <konstantinzhukovskij93@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KonstantinZhukovskij/react-native-update-version/issues"
+  },
+  "homepage": "https://github.com/KonstantinZhukovskij/react-native-update-version#readme"
+}
